@@ -1,0 +1,20 @@
+body {background-color: crimson;}
+h1 {color: aliceblue;
+text-align: center;
+font-family: courier;
+font-size: 20pt}
+p {font-size: 80pt;
+opacity: 0;
+  animation: blinking 0.1s linear infinite;}
+h2 {color: aliceblue;
+font-family: courier;
+font-size: 20pt}
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }

@@ -1,0 +1,48 @@
+h1 {   opacity: 0;
+  animation: blinking 2s linear infinite;
+text-align: center;
+    font-family: courier;
+    font-size: 22pt;
+color: aliceblue;}
+h2 { opacity: 0;
+  animation: blinking 2s linear infinite;
+text-align: center;
+    font-family: courier;
+    font-size: 17pt;
+color: aliceblue;}
+h3 {opacity: 0;
+  animation: blinking 2s linear infinite;
+text-align: center;
+    font-family: courier;
+    font-size: 15pt;
+color: aliceblue;}
+h4 {opacity: 0;
+  animation: blinking 2s linear infinite;
+text-align: center;
+    font-family: courier;
+    font-size: 9pt;
+color: aliceblue;}
+h5 {opacity: 0;
+  animation: blinking 2s linear infinite;
+text-align: center;
+    font-family: courier;
+    font-size: 7pt;
+color: aliceblue;}
+h6 {opacity: 0;
+  animation: blinking 2s linear infinite;
+text-align: center;
+    font-family: courier;
+    font-size: 25pt;
+color: aliceblue;}
+   
+body {background-color: crimson;}
+
+@keyframes blinking {
+  from,
+  49.9% {
+    opacity: 0;
+  }
+  50%,
+  to {
+    opacity: 1;
+  }
